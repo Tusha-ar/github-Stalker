@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Krona+One&display=swap');
+body{
+  background: linear-gradient(to top left,#552244 50%,#6e5773 40%);
+  min-height: 100vh;
+}
+.searchBar{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 50%;
+  transform: translate(-50%);
+  top: 10%;
+}
+button{
+  margin-top: 3%;
+  margin-left: 50%;
+  transform: translate(-50%);
+  border-radius: 15px;
+  height: 30px;
+  width: 100px;
+  box-shadow: 3px 0px 5px 0px rgba(0, 0, 0, 0.7);
+  border: none;
+  font-weight: bold;
+  font-family: 'Trade Winds';
+  letter-spacing: 2px;
+  outline: none;
+}
+img{
+  height: 200px;
+  position: relative;
+  left: 50%;
+  margin-top: 15%;
+  transform: translateX(-50%);
+  border: 2px solid black;
+  border-radius: 50%;
+}
+input{
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 3px 0px 10px 0px rgba(0, 0, 0, 0.7);
+}
+.content{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  font-family: 'Krona one';
+  color: white  ;
+}
+.no_data{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  color: white;
+  font-family: 'Krona one';
+  font-size: 50px;
+}
