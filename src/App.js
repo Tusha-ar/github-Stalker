@@ -59,8 +59,8 @@ class App extends Component {
     else if(this.state.bool === false){
     const {name, repos, bio, avatar} = this.state;
         return(
-          //<Data avatar={avatar} name={name} repos={repos} bio={bio} fetchData={this.fetchData} getname={this.getname}/>
-          <DataFun avatar={avatar} name={name} repos={repos} bio={bio} fetchData={this.fetchData} getname={this.getname}/>
+          <Data avatar={avatar} name={name} repos={repos} bio={bio} fetchData={this.fetchData} getname={this.getname}/>
+          //<DataFun avatar={avatar} name={name} repos={repos} bio={bio} fetchData={this.fetchData} getname={this.getname}/>
         )
         }
   }
